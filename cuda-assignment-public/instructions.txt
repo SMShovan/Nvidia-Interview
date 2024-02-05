@@ -1,0 +1,13 @@
+A customer has recently attempted to accelerate a kernel that takes up a
+significant amount of time in their workflow.  They are not happy with the
+current performance they are seeing.  To assist in optimization they have
+created a simple benchmark that times the kernel and tests for correctness
+within a specified tolerance.  Please modify the kernel to be as fast as
+possible and draft a letter to the customer describing the changes and why
+they are important.
+
+You can modify the kernel and the launchKernel function to improve
+performance.  The data dimensions (dimx and dimy) are to remain the same.
+You can change the kernel itself in any way you like, naturally the mathematical 
+operation for each output element must be the same within the specified
+tolerance.
